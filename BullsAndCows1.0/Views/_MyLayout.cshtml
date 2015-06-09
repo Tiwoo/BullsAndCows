@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script type="text/javascript" src="~/scripts/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="~/scripts/MyJavaScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/MyStyleSheet.css" />
+</head>
+<body>
+    <h1>Bulls and Cows</h1>
+    <section  id="bodyLayout">
+        <article id="gameDescription">
+            Your mission, if you choose to accept it is to break this little code! The computer generated a random code of 4 <b>distinct</b> digits.<br /> 
+            Submit your answer and check how many bulls or cows you get.<br />
+            A bull counts for a digit at the right position in the code.<br /> 
+            A cow means that the code contains some of your digits but not in the same position.<br />
+            Click on the Start button to generate the code and play!        
+        </article>
+        @RenderBody()
+    </section>
+</body>
+</html>
