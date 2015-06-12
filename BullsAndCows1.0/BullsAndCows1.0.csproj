@@ -137,6 +137,8 @@
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.15.0-build12287.js" />
     <Content Include="scripts\ai.0.15.0-build12287.min.js" />
+    <None Include="Properties\PublishProfiles\tiwoobullsandcows - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\tiwoobullsandcows - Web Deploy.pubxml" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\jquery-2.1.4.js" />
     <Content Include="scripts\jquery-2.1.4.min.js" />
